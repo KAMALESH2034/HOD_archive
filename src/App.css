@@ -1,0 +1,19 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 45%, rgba(229,65,65,1) 85%, rgba(255,226,0,0.45719537815126055) 100%);
+}
+.card-body{
+    background-color: rgb(110, 110, 91);
+}
+
+.charName {
+    padding: 2%;
+    
+    font-weight: bold;
+    color: transparent;
+    letter-spacing: .10em;
+    text-shadow: 2px 1px 0 #141313;
+  }
+.modalBG{
+    background-color: rgb(142, 136, 136) !important;
+}
