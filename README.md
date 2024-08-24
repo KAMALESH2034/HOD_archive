@@ -1,8 +1,9 @@
-# React + Vite
+# House Of Dragons Character Archieve
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### React Router, axios, validation, Formik, Modal, useNavigate, useEffect, useState
 
-Currently, two official plugins are available:
+This template provides a minimal setup to get React working in apove react methods.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is an simple task that this webpage act as an registry . It is sourced with an api you can add another character of HOD or GOT (*name, imageURL, house, description*) then your fav character will be added to website. You can refresh and see the result
+
+* Deployment URL : [Click Here👆](https://hodarchive.netlify.app/)
