@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter,Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router,Route, Routes } from 'react-router-dom'
 import Characters from './component/Characters'
 import ModalPop from './component/ModalPop'
 
@@ -7,13 +7,13 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={ <Characters/> }>
           <Route path="modal" element={<ModalPop/>}/>
           </Route>
         </Routes>
-    </BrowserRouter>
+    </Router>
 
     </>
       
